@@ -38,6 +38,11 @@ const Home = () => {
     <>
       <Form handleSubmit={handleSubmit} />
       {Loading && <Loader />}
+      <div className="flex justify-center mt-4">
+        <p className="text-base md:text-2xl font-main-menu uppercase font-bold text-orange-wildColor underline">
+          Membres de l'équipage :
+        </p>
+      </div>
       <ArgoList list={argonautesList} />
     </>
   );

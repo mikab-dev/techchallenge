@@ -47,7 +47,7 @@ const Form = ({ handleSubmit }) => {
                   setNewArgonaute({ ...newArgonaute, name: e.target.value })
                 }
                 className="border-2 rounded px-3 py-2 w-full focus:outline-none focus:border-orange-wildColor focus:shadow"
-                placeholder="Nom..."
+                placeholder="Nom de l'Argonaute..."
               />
               {nameErr && (
                 <p className="text-orange-wildColor uppercase font-bold text-sm">
