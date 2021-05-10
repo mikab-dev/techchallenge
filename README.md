@@ -18,6 +18,15 @@ Node Version : 14.16.0
 
 Clone the repo  
 Install with npm i  
+Create a .env in the root folder, copy and replace with your databse info :
+
+```DB_PORT=
+DB_HOST=
+DB_PASSWORD=
+DB_DATABASE=
+DB_USER=
+```
+
 Import TechChallenge.sql from the sql Folder into your database
 
 Enjoy !
