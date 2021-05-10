@@ -8,7 +8,6 @@ import Home from "../components/Home";
 const Layout = () => {
   return (
     <>
-      {" "}
       <Head>
         <title>Tech Challenge</title>
         <meta
@@ -18,7 +17,6 @@ const Layout = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      {/* {children} */}
       <Home />
       <Footer />
     </>
