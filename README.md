@@ -16,8 +16,8 @@ Node Version : 14.16.0
 
 ## How it's working :
 
-Clone the repo
-Install with npm i
+Clone the repo  
+Install with npm i  
 Import TechChallenge.sql from the sql Folder into your database
 
 Enjoy !
