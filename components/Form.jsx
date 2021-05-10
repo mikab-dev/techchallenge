@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 
-const INITIAL_ARGONAUTES = {
+const INITIAL_ARGONAUTE = {
   name: "",
   sex: "",
   navigation: 0,
 };
 
 const Form = ({ handleSubmit }) => {
-  const [newArgonaute, setNewArgonaute] = useState(INITIAL_ARGONAUTES);
+  const [newArgonaute, setNewArgonaute] = useState(INITIAL_ARGONAUTE);
   const [nameErr, setNameErr] = useState(false);
 
   const validName = /^[A-Za-z]+$/;
@@ -19,13 +19,20 @@ const Form = ({ handleSubmit }) => {
     }
   };
 
+  const resetRadio = () => {
+    document.getElementById("radioM").checked = false;
+    document.getElementById("radioF").checked = false;
+  };
+
   const onSubmit = (e) => {
     e.preventDefault();
     if (!nameErr) {
       handleSubmit(newArgonaute);
-      setNewArgonaute(INITIAL_ARGONAUTES);
+      setNewArgonaute(INITIAL_ARGONAUTE);
+      resetRadio();
     } else {
-      setNewArgonaute(INITIAL_ARGONAUTES);
+      setNewArgonaute(INITIAL_ARGONAUTE);
+      resetRadio();
     }
   };
 
@@ -79,6 +86,7 @@ const Form = ({ handleSubmit }) => {
                 <input
                   type="radio"
                   className="form-radio"
+                  id="radioM"
                   name="sex"
                   value="M"
                   required
@@ -92,6 +100,7 @@ const Form = ({ handleSubmit }) => {
                 <input
                   type="radio"
                   className="form-radio"
+                  id="radioF"
                   name="sex"
                   value="F"
                   required
