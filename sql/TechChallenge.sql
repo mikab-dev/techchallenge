@@ -38,7 +38,7 @@ CREATE TABLE `argonautes` (
 
 LOCK TABLES `argonautes` WRITE;
 /*!40000 ALTER TABLE `argonautes` DISABLE KEYS */;
-INSERT INTO `argonautes` VALUES (1,'Eleftheria','F',100),(2,'Gennadios','M',50),(3,'Lysimachos','F',10),(109,'babar','M',29),(110,'babar','M',29),(111,'titi','F',0),(112,'zzz','',52),(113,'aeazeae','F',0),(114,'aeza','',0),(115,'azea','M',56),(116,'123','',0),(117,'aezea','F',0),(118,'1234','',0),(119,'aezae','',0),(120,'aeaze','',0),(121,'415','',0),(122,'aeaze','M',28),(123,'aeezaea','',0),(124,'aeaze','F',0),(125,'aezaea','M',45),(126,'aeza','',0),(127,'aeaz','',0),(128,'aeae','',0),(129,'aeaz','',0);
+INSERT INTO `argonautes` VALUES (1,'Eleftheria','F',100),(2,'Gennadios','M',50),(3,'Lysimachos','F',10);
 /*!40000 ALTER TABLE `argonautes` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
