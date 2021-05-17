@@ -3,7 +3,7 @@ import Head from "next/head";
 
 import Header from "./Header";
 import Footer from "./Footer";
-import Home from "../components/Home";
+import Home from "../Home";
 
 const Layout = () => {
   return (

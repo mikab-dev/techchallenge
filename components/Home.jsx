@@ -3,7 +3,7 @@ import axios from "axios";
 
 import ArgoList from "./ArgoList";
 import Form from "./Form";
-import Loader from "../Presentationals/Loader";
+import Loader from "./presentationals/Loader";
 
 import getArgonautesApiUrl from "../utils/getApiUrl";
 

@@ -1,4 +1,4 @@
-import Layout from "../Presentationals/Layout";
+import Layout from "../components/presentationals/Layout";
 
 export default function Home() {
   return (
